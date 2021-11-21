@@ -29,7 +29,7 @@ class LoginViewController: UIViewController {
 
     @IBAction func actionLoginSignup(_ sender: Any) {
         if let email = tfEmail.text {
-            if let password =true
+            if let password = tfPassword.text {
             
                 if inLoginMode {
                     // Login
